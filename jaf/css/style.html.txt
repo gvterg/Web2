@@ -1,0 +1,35 @@
+/* إضافة هذه التنسيقات إلى ملف style.css */
+
+/* تنسيقات تسجيل الخروج */
+.logout {
+    color: #e8491d !important;
+    font-weight: bold;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+/* تحسينات للروابط النشطة */
+nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 5px;
+}
+
+/* تحسينات للهيدر */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
